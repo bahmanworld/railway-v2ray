@@ -1,0 +1,28 @@
+     {
+       "inbounds": [
+         {
+           "port": 8080,
+           "protocol": "vmess",
+           "settings": {
+             "clients": [
+               {
+                 "id": "c80e2631-c64d-40d2-90a3-117460a6aced",
+                 "alterId": 64
+               }
+             ]
+           },
+           "streamSettings": {
+             "network": "ws",
+             "wsSettings": {
+               "path": "/bahman"
+             }
+           }
+         }
+       ],
+       "outbounds": [
+         {
+           "protocol": "freedom",
+           "settings": {}
+         }
+       ]
+     }
